@@ -1,0 +1,48 @@
+{
+    "title": "CONCEPT-HF",
+    "description": "Data model specification documenting both individual-level, sub-individual level and area-level data required to respond to the CONCEPT heart failure research question. The data model specification includes the cohort definition, individual-level and area-level variable specification including data dictionaries and crosswalks for semantic interoperable definition of certain variables (i.e. health status, clinical conditions and comorbidities - (def)). See below some of the conventions used to document this data model.",
+    "creators": [
+        {
+            "name": "Quirós-López, Raúl",
+            "affiliation": "Hospital Universitario Costa del Sol",
+            "orcid": "0000-0002-2802-2477"
+        },
+        {
+            "name": "Estupiñán-Romero, Francisco",
+            "affiliation": "Instituto Aragonés de Ciencias de la Salud (IACS)",
+            "orcid": "0000-0002-6285-8120"
+        },
+        {
+            "name": "Jiménez-García, Nicolás",
+            "affiliation": "Hospital Universitario Costa del Sol",
+            "orcid": "0000-0002-6839-0303"
+        },
+        {
+            "name": "Millán-Ortuondo, Eduardo",
+            "affiliation": "Osakidetza-Servicio Vasco de Salud",
+            "orcid": "0000-0002-9688-9304"
+        },
+        {
+            "name": "Royo-Sierra, Santiago",
+            "affiliation": "Instituto Aragonés de Ciencias de la Salud (IACS)",
+            "orcid": "0000-0002-0048-4370"
+        },
+        {
+            "name": "González-Galindo, Javier",
+            "affiliation": "Instituto Aragonés de Ciencias de la Salud (IACS)",
+            "orcid": "0000-0002-8783-5478"
+        },
+        {
+            "name": "Bernal-Delgado, Enrique",
+            "affiliation": "Instituto Aragonés de Ciencias de la Salud (IACS)",
+            "orcid": "0000-0002-0961-3298"
+        }
+    ],
+    "keywords": [
+        "heart failure",
+        "chronic disease",
+        "process mining",
+        "care pathways",
+        "Spain"
+    ]
+}
