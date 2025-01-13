@@ -1,86 +1,91 @@
-![Logo of the project](https://cienciadedatosysalud.org/wp-content/uploads/logo-Data-Science-VPM.png)
+![Logo of the project](main_logo.png)
 
 <small><i>This project follows the structure built using the [Common Data Model Builder](https://github.com/cienciadedatosysalud/cdmb), a tool that allows you to create common data models to facilitate interoperability and reproducibility of the analyses.</i></small>
 
 
-# Your project title
+# CONCEPT-HF
 
----
+Common Data Model for Cohort Analysis of Patients in the CONCEPT-HF Project.
 
-# Outputs
-Outputs structure and content is described below including the files and folders that are generated when creating a research project with the `cdmb` Python library. There are four main folders corresponding to:
-
-- __docs/CDM/__
-  - **cdmb_config.json**: Configuration file.
-  - **cohort_definition_inclusion.csv**: csv file that defines the criteria (i.e., codes) for inclusion in a cohort.
-  - **cohort_definition_exclusion.csv**: csv file that defines the criteria (i.e., codes) for exclusion in a cohort.
-  - **common_datamodel.xlsx**: The definition of the common data model in Excel format.
-  - **entities/**: Folder structure where, for each defined entity, the catalogs and the established validation rules are stored.
-  - **ER.gv, ER.gv.png**: an Entity-Relationship Diagram of the entities included in the CDM.
-  - **synthetic-data/**: Folder structure contaning an automatically generated set of 1000 synthetic records per entity included en the CDM.
-  - **hashed_files_list.json**: List of the files generated or used after generating the project with their md5 hash. This file must be kept hidden 
-and should be used to cross-check with the results obtained from the analysis from the original input files.
-- __inputs/__
-  - **data.duckdb**: Database that temporarily contains the data entered by the user (synthetic data by default)
-- __outputs/__
-  - (Default directory of all the outputs produced in the project execution)
-- __src/__
-  - __analysis-scripts/__
-    - (directory where the analysis scripts developed by the user are stored)
-    - **r_report_template.qmd**: Quarto document, with an example analysis, showing the interaction with the folder structure and files generated in the project.
-    - **_quarto.yml**: File containing the Metadata to execute Quarto documents.
-  - __check_load-scripts/__
-    - **check_load.py**: Script in charge of the mapping between the files introduced by the user (./inputs) and map them to the defined entities (inputs/data.duckdb). 
-    In the loading process, the following checks are performed: Name of the variables match; the format/type of the variables match those established in the configuration.
-    - __inputs/__: Auxiliary folder for the script 'check_load.py'.
-  - __dqa-scripts/__
-    - **dqa.py**: Data Quality Assesment script by default.
-  - **validation-scripts/**
-    - **validator.py**: Script in charge of applying the validation rules to the data.
-    - **valididator_report.qmd**: Quarto document that generates a report in html from the results obtained from 'validator.py'. 
-    - **_quarto.yml**: File containing metadata to execute Quarto documents.
-- **ro-crate-metadata.json**: Accessible and practical formal metadata description for use in a wider variety of situations, 
-from an individual researcher working with a folder of data, to large data-intensive computational research environments. For more information, visit [RO-Crate](https://www.researchobject.org/ro-crate/).
-- **man_container_deployment.md**: From Data Science for Health Services and Policy Research group we provide in the following
-  GitHub repository, a solution, for the deployment of the generated project. This step is optional.
-- **LICENSE.md**: Project license (CC BY 4.0 by default).
+This data model includes cohort definition information with the specification for selecting hospitalization episodes due to heart failure based on the primary diagnosis (i.e., ICD-9 or ICD-10), and the specification and definition of the minimum set of variables required to accomplish the study's objectives. 
+A schematic figure is also included to depict the expected sources of the required information within the information systems of different levels of care, according to the sequence of the care process.
 
 
-## Requirements/Dependencies 
-__*Note that dependencies may vary depending on user modifications!*__
+## Main specific aims:
 
-## R dependencies
-Version of Rbase used: **4.1**
+The CONCEPT-IC project aims to analyze the effectiveness of the healthcare process experienced by HF patients.
 
-Version of [Quarto](https://quarto.org/) used: **1.1.149**
+Specific Objectives are to identify and characterize the healthcare trajectories experienced by HF patients within the healthcare system and compare care pathways experienced by HF patients with the theoretical trajectories derived from clinical guidelines, including process indicators, diagnosis, clinical follow-up, and pharmacological treatment recommendations.
 
-| library    | version | link                                                                                    |
-|------------|---------|-----------------------------------------------------------------------------------------|
-| DuckDB     | 0.8.1   | https://duckdb.org/                                                                     |
-| jsonlite   | 1.8.7   | https://cran.r-project.org/web/packages/jsonlite/index.html                             |
-| kableExtra | 1.3.4   | https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html |
-| Hmisc      | 4.7.1   | https://cran.r-project.org/package=Hmisc                                                |
+A third point of interest is to evaluate the effect of adherence to clinical guidelines by patients and healthcare providers on health outcomes.
 
-## Python dependencies
-Version of Python used: **3.8**
+Finally, we want to evaluate the quality improvement strategies based on HF Programs concerning process and outcome indicators, analyzing deviations from observed healthcare trajectories compared to theoretical ones and the differences in HF care and outcomes between three Spanish healthcare systems: Andalusian, Aragonese, and Basque
 
-| library         | version | link                                                    |
-|-----------------|---------|---------------------------------------------------------|
-| pandas          | 1.3.4   | https://pandas.pydata.org/                              |
-| DuckDB          | 0.8.1   | https://duckdb.org/                                     |
-| ydata_profiling | 4.1.2   | https://ydata-profiling.ydata.ai/docs/master/index.html |
+## Cohort definition:
 
+The cohort is defined as patients admitted to hospital due to acute ischaemic stroke.
+
+### Inclusion criteria: 
+
+Patients 18 years old or older with at least a hospital admission with a main diagnosis of heart failure within the period of study.
+
+### Exclusion criteria: 
+
+Patients younger than 18 years.
+
+Patients with a secondary diagnosis of heart failure or a diagnosis of heart failure at primary care without any hospital admissions due to this during the period of study.
+
+
+## Study period:
+
+From 01-01-2015 until 31-12-2022
+
+## IN ORDER TO RUN THE DOCKER FOLLOW THE NEXT STEPS
+
+### 1-HOW TO RUN
+Use the following code snippet to create the container.
+```bash
+docker pull ghcr.io/cienciadedatosysalud/concept-hf:latest
+
+```
+
+```bash
+
+docker run -d -p 127.0.0.1:3000:3000 --name concept-hf-aspire ghcr.io/cienciadedatosysalud/concept-hf:latest
+
+```
+
+Open your web browser at http://localhost:3000
+
+### 2-Run the analysis
+
+Follow the steps below.
+  1. Map your data in the "MAP DATA" tab.
+  2. If everything has worked well, in the "RUN ANALYSIS" tab, select the project "CONCEPT-HF" and select the script "**analysis_concept.qmd**"
+  3. Go to the "OUTPUTS" tab and download the results.
 
 # Authoring
 
 | Surname, name | Affiliation | ![orcid](https://orcid.org/sites/default/files/images/orcid_16x16.png) ORCID |
 |---------------|-------------|------------------------------------------------------------------------------|
+| Quirós-López, Raúl | Hospital Universitario Costa del Sol |  https://orcid.org/0000-0002-2802-2477
+| Estupiñan-Romero, Francisco | Instituto Aragonés de Ciencias de la Salud (IACS) | https://orcid.org/0000-0002-6285-8120 |
+| Jiménez-García, Nicolás | Hospital Universitario Costa del Sol | https://orcid.org/0000-0002-6839-0303
+| Millán-Ortuondo, Eduardo | Osakidetza-Servicio Vasco de Salud | https://orcid.org/0000-0002-9688-9304
+| Royo-Sierra, Santiago | Instituto Aragonés de Ciencias de la Salud (IACS) | https://orcid.org/0000-0002-0048-4370 |
+| González-Galindo, Javier | Instituto Aragonés de Ciencias de la Salud (IACS) | https://orcid.org/0000-0002-8783-5478 |
+| Bernal-Delgado, Enrique | Instituto Aragonés de Ciencias de la Salud (IACS) | https://orcid.org/0000-0002-0961-3298 |
 
-# Previous version(s):
+__Project leader: [Bernal-Delgado, Enrique](https://orcid.org/0000-0002-0961-3298)__
+
+
 
 # How to contribute
-- Repository: https://github.com/your_user/your_repository/
-- Issue tracker: https://github.com/your_user/your_repository/issues
+- Repository: https://github.com/cienciadedatosysalud/CONCEPT-HF
+- Issue tracker: https://github.com/cienciadedatosysalud/CONCEPT-HF/issues
+
+> [!CAUTION]
+> Please note that the information is provided as-is, in compliance with the specifications of the CONCEPT-HF project. The details included in this data model are subject to change, as this is the first version of the specification. They are confined to the design process of the proposed study in CONCEPT-HF and should not be interpreted outside of this scope. For any comments, clarifications, or verification, please contact us at: http://cienciadedatosysalud.org/contacto/.
 
 # References
 - Data Science for Health Services and Policy Research group: https://cienciadedatosysalud.org/en/
@@ -90,5 +95,6 @@ Version of Python used: **3.8**
 - Research Object Crate (RO-Crate): https://www.researchobject.org/ro-crate/
 - ORCID: https://orcid.org/
 
+[![DOI](https://zenodo.org/badge/653146110.svg)](https://zenodo.org/badge/latestdoi/)
 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" ><img src="https://img.shields.io/badge/license-CC--BY%204.0-lightgrey" alt="License: CC-BY 4.0"></a>
 
