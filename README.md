@@ -13,7 +13,7 @@ A schematic figure is also included to depict the expected sources of the requir
 
 ## Main specific aims:
 
-The CONCEPT-IC project aims to analyze the effectiveness of the healthcare process experienced by HF patients.
+The CONCEPT-HF project aims to analyze the effectiveness of the healthcare process experienced by HF patients.
 
 Specific Objectives are to identify and characterize the healthcare trajectories experienced by HF patients within the healthcare system and compare care pathways experienced by HF patients with the theoretical trajectories derived from clinical guidelines, including process indicators, diagnosis, clinical follow-up, and pharmacological treatment recommendations.
 
@@ -95,6 +95,6 @@ __Project leader: [Bernal-Delgado, Enrique](https://orcid.org/0000-0002-0961-329
 - Research Object Crate (RO-Crate): https://www.researchobject.org/ro-crate/
 - ORCID: https://orcid.org/
 
-[![DOI](https://zenodo.org/badge/653146110.svg)](https://zenodo.org/badge/latestdoi/)
+<!--[![DOI](https://zenodo.org/badge/.svg)](https://zenodo.org/badge/latestdoi/)-->
 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" ><img src="https://img.shields.io/badge/license-CC--BY%204.0-lightgrey" alt="License: CC-BY 4.0"></a>
 
