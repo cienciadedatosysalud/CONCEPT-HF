@@ -1,0 +1,6 @@
+encoding,code,clean_code,description,source
+CIE-9,415.1,4151,Pulmonary embolism and infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,415.11,41511,Iatrogenic pulmonary embolism and infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,415.19,41519,Other pulmonary embolism and infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I26.0,I260,Pulmonary embolism with mention of acute cor pulmonale,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I26.9,I269,Pulmonary embolism without mention of acute cor pulmonale,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html

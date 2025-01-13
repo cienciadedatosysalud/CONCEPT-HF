@@ -1,0 +1,67 @@
+encoding,code,clean_code,description,source
+icd-09-mc,398.91,39891,INSUFICIENCIA CARDIACA REUMATICA (CONGESTIVO),https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,402,402,ENFERM. CARDIACA HIPERTENSIVA,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,402.0,4020,ENFERM. CARDIACA HIPERTENSIVA MALIGNA,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,402.01,40201,ENF.CARDIACA HIPERTENSIVA MALIGNA-CON FALLO CARD. CONGESTIVO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,402.1,4021,ENFERM. CARDIACA HIPERTENSIVA BENIGNA,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,402.11,40211,ENF.CARDIACA HIPERTENSIVA BENIGNA-CON FALLO CARD. CONGESTIVO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,402.9,4029,ENFERM. CARDIACA HIPERTENSIVA SIN ESPECIFICAR,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,402.91,40291,ENF.CARDIACA HIPERTENSIVA SIN ESPECIFICAR. CON FALLO C.CONG.,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404,404,ENFERM. CARDIACA Y RENAL HIPERTENSIVA,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404,404,ENFERM. CARDIACA Y RENAL HIPERTENSIVA MALIGNA,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404.01,40401,ENF.CARD.Y RENAL HIPERT.MALIGNA CON INSUFIC.CARDIACA CONGEST,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404.02,40402,ENFER. CARD. Y RENAL HIPERTENSIVA MALIGNA CON INSUFIC. RENAL,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404.03,40403,EN.CARD.Y RENAL HIPERT.MALIGNA CON INSUF.CARD.Y RENAL CONGES,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404.1,4041,ENFERM. CARDIACA Y RENAL HIPERTENSIVA BENIGNA,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404.11,40411,ENF.CARD.Y RENAL HIPERT.BENIGNA CON INSUFIC.CARDIACA CONGEST,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404.12,40412,ENFER.CARDIACA Y RENAL HIPERTENS. BENIGNA CON INSUFIC. RENAL,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404.13,40413,EN.CARD.Y RENAL HIPERT.BENIGNA CON INSUF.CARD.Y RENAL CONGES,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404.9,4049,ENFERM. CARDIACA Y RENAL HIPERTENSIVA SIN ESPECIFICAR,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404.91,40491,ENF.CARD.Y RENAL HIPERT.NO ESPEC.CON INSUF.CARDIACA CONGESTI,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404.92,40492,ENF.CARD.Y RENAL HIPERTENS.NO ESPECIFICADA CON INSUFIC.RENAL,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,404.93,40493,E.CARD.Y RENAL HIPERT.NO ESPEC.CON INSUF.CARD.Y RENAL CONGES,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428,428,INSUFICIENCIA CARDIACA,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428,428,INSUFICIENCIA CARDIACA CONGESTIVA,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.1,4281,INSUFICIENCIA CARDIACA DE LADO IZQUIERDO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.2,4282,FALLO CARDIACO SISTOLICO INESPECIFICO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.21,42821,FALLO CARDIACO SISTOLICO AGUDO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.22,42822,FALLO CARDIACO SISTOLICO CRONICO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.23,42823,FALLO CARDIACO SISTOLICO CRONICO AGUDIZADO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.3,4283,FALLO CARDIACO DIASTOLICO INESPECIFICO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.31,42831,FALLO CARDIACO DIASTOLICO AGUDO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.32,42832,FALLO CARDIACO DIASTOLICO CRONICO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.33,42833,FALLO CARDIACO DIASTOLICO CRONICO AGUDIZADO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.4,4284,FALLO CARDIACO SISTOLICO Y DIASTOLICO COMBINADO INESPECIFICO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.41,42841,FALLO CARDIACO SISTOLICO Y DIASTOLICO COMBINADO AGUDO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.42,42842,FALLO CARDIACO SISTOLICO Y DIASTOLICO COMBINADO CRONICO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.43,42843,FALLO CARDIACO SISTOLICO Y DIASTOLICO COMBINADO CRONICO AGUDIZADO,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,428.9,4289,FALLO CARDIACO NEOM,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I09.81,I0981,Insuficiencia cardiaca reumática,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I11.0,I110,Enfermedad cardíaca hipertensiva con insuficiencia cardiaca,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I13.0,I130,Enfermedad cardiaca y renal crónica hipertensiva con insuficiencia cardiaca y enfermedad renal crónica estadios 1 a 4 ó enfermedad renal crónica no especificada,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I13.10,I1310,"Enfermedad cardiaca y renal crónica hipertensiva sin insuficiencia cardiaca, con enfermedad renal crónica en estadio 1 a 4 ó enfermedad renal crónica no especificada",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I13.11,I1311,Enfermedad cardiaca y renal crónica hipertensiva sin insuficiencia cardiaca con enfermedad renal crónica en estadio 5 ó con enfermedad renal en estadio terminal,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I13.2,I132,Enfermedad cardiaca y renal crónica hipertensiva con insuficiencia cardiaca y con enfermedad renal crónica en estadio 5 ó con enfermedad renal en estadio terminal,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.1,I501,Insuficiencia ventricular izquierda,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.20,I5020,"Insuficiencia cardiaca sistólica (congestiva), no especificada",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.21,I5021,"Insuficiencia cardiaca sistólica (congestiva), aguda",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.22,I5022,"Insuficiencia cardiaca sistólica (congestiva), crónica",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.23,I5023,"Insuficiencia cardiaca sistólica (congestiva), aguda sobre crónica",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.30,I5030,"Insuficiencia cardiaca diastólica (congestiva), no especificada",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.31,I5031,"Insuficiencia cardiaca diastólica (congestiva), aguda",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.32,I5032,"Insuficiencia cardiaca diastólica (congestiva), crónica",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.33,I5033,"Insuficiencia cardiaca diastólica (congestiva), aguda sobre crónica",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.40,I5040,"Insuficiencia cardiaca combinada sistólica y diastólica (congestiva), no especificada",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.41,I5041,"Insuficiencia cardiaca combinada sistólica y diastólica (congestiva), aguda",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.42,I5042,"Insuficiencia cardiaca combinada sistólica y diastólica (congestiva), crónica",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.43,I5043,"Insuficiencia cardiaca combinada sistólica y diastólica (congestiva), aguda sobre crónica",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.9,I509,"Insuficiencia cardiaca, no especificada",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.810,I50810,"Insuficiencia cardíaca derecha, no especificada",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.811,I50811,Insuficiencia cardíaca derecha aguda,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.812,I50812,Insuficiencia cardíaca derecha crónica,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.813,I50813,Insuficiencia cardíaca derecha aguda sobre crónica,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.814,I50814,Insuficiencia cardíaca derecha por insuficiencia cardíaca izquierda,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.82,I5082,Insuficiencia cardíaca biventricular,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.83,I5083,Insuficiencia cardíaca de alto gasto,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.84,I5084,Insuficiencia cardíaca en estadio terminal,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+icd-09-mc,I50.89,I5089,Otra insuficiencia cardíaca,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html

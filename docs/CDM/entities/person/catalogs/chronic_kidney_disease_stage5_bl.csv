@@ -1,0 +1,18 @@
+encoding,code,clean_code,description,source
+icd-10-mc,I12.0,I120,Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-10-mc,I13.11,I1311,"Hypertensive heart and chronic kidney disease without heart failure, with stage 5 chronic kidney disease, or end stage renal disease",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-10-mc,I13.2,I132,"Hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney disease, or end stage renal disease",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-10-mc,N18.5,N185,"Chronic kidney disease, stage 5",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-10-mc,N18.6,N186,End stage renal disease,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,403.01,40301,"chronic renal disease hta malignant with chronic renal disease, stage v, or end-stage renal disease",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,403.11,40311,"chronic renal disease hta benign with stage v chronic renal disease, or end-stage renal disease",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,403.91,40391,"chronic renal disease unspecified chronic hta with chronic renal disease stage v, or end-stage renal disease",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,404.02,40402,"cardiac and chronic renal disease hta malignant without cardiac i. and with chronic renal disease stage v, or end stage renal disease",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,404.03,40403,chronic cardiac and renal disease hta malignant with cardiac i. and chronic renal disease est. v or end-stage renal disease,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,404.12,40412,cardiac and chronic renal disease hta benign hta without cardiac i. and with chronic renal disease est. v or end stage renal disease,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,404.13,40413,hta benign with i. cardiac and with chronic renal disease est. v or end stage renal disease,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,404.92,40492,cardiac and chronic renal disease unspecified hta without cardiac i. and with chronic renal disease est. v or end-stage renal disease,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,404.93,40493,chronic cardiac and renal disease hta non-specific with i. cardiac and with chronic renal disease est. v. or end stage renal disease,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,585.4,5854,"chronic nephropathy, stage iv (severe)",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,585.5,5855,"chronic nephropathy, stage v",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,585.6,5856,end stage renal disease,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp

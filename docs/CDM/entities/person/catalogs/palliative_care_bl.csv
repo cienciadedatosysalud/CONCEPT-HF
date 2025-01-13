@@ -1,0 +1,7 @@
+encoding,code,clean_code,description,source
+CIE-9,V66.7,V667,Hospice care,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,V66.7,V667,Encounter for palliative care,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,V66.7,V667,Palliative care,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,Z51.5,Z515,Palliative care,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,Z51.5,Z515,Encounter for palliative care,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,Z51.5,Z515,Palliative care due to terminal illness,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html

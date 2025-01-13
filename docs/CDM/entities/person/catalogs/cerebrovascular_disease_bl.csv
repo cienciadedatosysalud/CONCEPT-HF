@@ -1,0 +1,63 @@
+encoding,code,clean_code,description,source
+CIE-9,430,430,Subarachnoid hemorrhage,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,431,431,Intracerebral hemorrhage,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,432,4320,Nontraumatic extradural hemorrhage,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,432.1,4321,Nontraumatic subdural hemorrhage,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,432.9,4329,Unspecified intracranial hemorrhage,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,433,43300,Occlusion and stenosis of basilar artery without mention of cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,433.01,43301,Occlusion and stenosis of basilar artery with cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,433.1,43310,Occlusion and stenosis of carotid artery without mention of cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,433.11,43311,Occlusion and stenosis of carotid artery with cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,433.2,43320,Occlusion and stenosis of vertebral artery without mention of cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,433.21,43321,Occlusion and stenosis of vertebral artery with cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,433.3,43330,Occlusion and stenosis of multiple and bilateral precerebral arteries without mention of cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,433.31,43331,Occlusion and stenosis of multiple and bilateral precerebral arteries with cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,433.8,43380,Occlusion and stenosis of other specified precerebral artery without mention of cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,433.81,43381,Occlusion and stenosis of other specified precerebral artery with cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,433.9,43390,Occlusion and stenosis of unspecified precerebral artery without mention of cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,433.91,43391,Occlusion and stenosis of unspecified precerebral artery with cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,434,43400,Cerebral thrombosis without mention of cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,434.01,43401,Cerebral thrombosis with cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,434.1,43410,Cerebral embolism without mention of cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,434.11,43411,Cerebral embolism with cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,434.9,43490,"Cerebral artery occlusion, unspecified without mention of cerebral infarction",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,434.91,43491,"Cerebral artery occlusion, unspecified with cerebral infarction",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,436,436,"Acute, but ill-defined, cerebrovascular disease",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,437,4370,Cerebral atherosclerosis,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,437.1,4371,Other generalized ischemic cerebrovascular disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,437.3,4373,"Cerebral aneurysm, nonruptured",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,437.4,4374,Cerebral arteritis,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,437.5,4375,Moyamoya disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,437.6,4376,Nonpyogenic thrombosis of intracranial venous sinus,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,437.7,4377,Other noninfectious disorders of intracranial veins,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,437.8,4378,Other specified cerebrovascular diseases,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,437.9,4379,Unspecified cerebrovascular disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,438,438,Late effects of cerebrovascular disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I60,I60,Subarachnoid hemorrhage,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I61,I61,Intracerebral hemorrhage,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I62,I62,Other nontraumatic intracranial hemorrhage,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I63,I63,Cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I64,I64,"Stroke, not specified as hemorrhage or infarction",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I65,I65,"Occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I66,I66,"Occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I67.1,I671,"Cerebral aneurysm, nonruptured",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I67.2,I672,Cerebral atherosclerosis,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I67.3,I673,Progressive vascular leukoencephalopathy,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I67.4,I674,Hypertensive encephalopathy,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I67.5,I675,Moyamoya disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I67.6,I676,Nonpyogenic thrombosis of intracranial venous system,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I67.7,I677,Cerebral arteritis,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I67.8,I678,Other specified cerebrovascular diseases,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I67.9,I679,"Cerebrovascular disease, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I68.0,I680,Cerebral amyloid angiopathy,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I68.1,I681,Cerebral arteritis in other diseases classified elsewhere,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I68.2,I682,Nonpyogenic thrombosis of intracranial venous system in other diseases classified elsewhere,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I68.8,I688,Other specified cerebrovascular disorders in diseases classified elsewhere,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I68.9,I689,"Cerebrovascular disorder, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I69.0,I690,Sequelae of subarachnoid hemorrhage,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I69.1,I691,Sequelae of intracerebral hemorrhage,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I69.2,I692,Sequelae of other nontraumatic intracranial hemorrhage,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I69.3,I693,Sequelae of cerebral infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I69.4,I694,"Sequelae of stroke, not specified as hemorrhage or infarction",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I69.8,I698,Sequelae of other specified cerebrovascular diseases,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I69.9,I699,Sequelae of unspecified cerebrovascular disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html

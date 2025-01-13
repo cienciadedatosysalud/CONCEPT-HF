@@ -1,0 +1,3256 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "creator": "Common Data Model Builder",
+            "datePublished": "2025-01-13T15:52:51+00:00",
+            "description": "Data model specification documenting both individual-level, sub-individual level and area-level data required to respond to the CONCEPT heart failure research question. The data model specification includes the cohort definition, individual-level and area-level variable specification including data dictionaries and crosswalks for semantic interoperable definition of certain variables (i.e. health status, clinical conditions and comorbidities - (def)). See below some of the conventions used to document this data model.",
+            "hasPart": [
+                {
+                    "@id": "README.md"
+                },
+                {
+                    "@id": "LICENSE.md"
+                },
+                {
+                    "@id": "man_container_deployment.md"
+                },
+                {
+                    "@id": ".gitignore"
+                },
+                {
+                    "@id": "inputs/data.duckdb"
+                },
+                {
+                    "@id": "src/dqa-scripts/dqa.py"
+                },
+                {
+                    "@id": "src/validation-scripts/validator.py"
+                },
+                {
+                    "@id": "src/validation-scripts/validator_report.qmd"
+                },
+                {
+                    "@id": "src/validation-scripts/_quarto.yml"
+                },
+                {
+                    "@id": "src/analysis-scripts/r_report_template.qmd"
+                },
+                {
+                    "@id": "src/analysis-scripts/_quarto.yml"
+                },
+                {
+                    "@id": "docs/CDM/cdmb_config.json"
+                },
+                {
+                    "@id": "docs/CDM/common_datamodel.xlsx"
+                },
+                {
+                    "@id": "docs/CDM/cohort_definition_inclusion.csv"
+                },
+                {
+                    "@id": "docs/CDM/ER.gv.png"
+                },
+                {
+                    "@id": "docs/CDM/ER.gv"
+                },
+                {
+                    "@id": "docs/CDM/synthetic-data/synthetic_person.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/crosswalks.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/heart_failure_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/systolic_dysfunction_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/diabetes_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/obesity_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/copd_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/solid_tumor_wo_metastasis_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/solid_tumor_with_metastasis_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/chronic_kidney_disease_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/chronic_kidney_disease_stage3_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/chronic_kidney_disease_stage4_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/chronic_kidney_disease_stage5_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/dialysis_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/sickle_cell_disease_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/hypertension_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/chronic_liver_disease_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/blood_cancer_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/transplanted_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/arrythmia_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/atrial_fibrillation_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/dyslipidemia_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/cognitive_impairment_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/valvular_disease_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/ischaemic_heart_disease_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/cabg_procedure_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/anemia_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/cerebrovascular_disease_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/trc_dai_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/pacemaker_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/pulmonary_hypertension_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/pulmonary_embolism_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/catalogs/palliative_care_bl.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/person/validation-rules/rules_set_person.json"
+                },
+                {
+                    "@id": "docs/CDM/synthetic-data/synthetic_hospital_episode.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/hospital_episode/validation-rules/rules_set_hospital_episode.json"
+                },
+                {
+                    "@id": "docs/CDM/synthetic-data/synthetic_utilization.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/utilization/validation-rules/rules_set_utilization.json"
+                },
+                {
+                    "@id": "docs/CDM/synthetic-data/synthetic_treatment.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/treatment/catalogs/atc_code_selection.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/treatment/validation-rules/rules_set_treatment.json"
+                },
+                {
+                    "@id": "docs/CDM/synthetic-data/synthetic_intervention.csv"
+                },
+                {
+                    "@id": "docs/CDM/entities/intervention/validation-rules/rules_set_intervention.json"
+                }
+            ],
+            "keywords": "heart failure, chronic disease, process mining, care pathways, Spain",
+            "license": "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "name": "CONCEPT-HF"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2802-2477",
+            "@type": "Person",
+            "affiliation": "Hospital Universitario Costa del Sol",
+            "name": "Quir\u00f3s-L\u00f3pez, Ra\u00fal"
+        },
+        {
+            "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a",
+            "@type": "Person",
+            "affiliation": "Hospital Universitario Costa del Sol",
+            "name": "Quir\u00f3s-L\u00f3pez, Ra\u00fal"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6285-8120",
+            "@type": "Person",
+            "affiliation": "Instituto Aragon\u00e9s de Ciencias de la Salud (IACS)",
+            "name": "Estupi\u00f1\u00e1n-Romero, Francisco"
+        },
+        {
+            "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b",
+            "@type": "Person",
+            "affiliation": "Instituto Aragon\u00e9s de Ciencias de la Salud (IACS)",
+            "name": "Estupi\u00f1\u00e1n-Romero, Francisco"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6839-0303",
+            "@type": "Person",
+            "affiliation": "Hospital Universitario Costa del Sol",
+            "name": "Jim\u00e9nez-Garc\u00eda, Nicol\u00e1s"
+        },
+        {
+            "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b",
+            "@type": "Person",
+            "affiliation": "Hospital Universitario Costa del Sol",
+            "name": "Jim\u00e9nez-Garc\u00eda, Nicol\u00e1s"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9688-9304",
+            "@type": "Person",
+            "affiliation": "Osakidetza-Servicio Vasco de Salud",
+            "name": "Mill\u00e1n-Ortuondo, Eduardo"
+        },
+        {
+            "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400",
+            "@type": "Person",
+            "affiliation": "Osakidetza-Servicio Vasco de Salud",
+            "name": "Mill\u00e1n-Ortuondo, Eduardo"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-0048-4370",
+            "@type": "Person",
+            "affiliation": "Instituto Aragon\u00e9s de Ciencias de la Salud (IACS)",
+            "name": "Royo-Sierra, Santiago"
+        },
+        {
+            "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011",
+            "@type": "Person",
+            "affiliation": "Instituto Aragon\u00e9s de Ciencias de la Salud (IACS)",
+            "name": "Royo-Sierra, Santiago"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8783-5478",
+            "@type": "Person",
+            "affiliation": "Instituto Aragon\u00e9s de Ciencias de la Salud (IACS)",
+            "name": "Gonz\u00e1lez-Galindo, Javier"
+        },
+        {
+            "@id": "#1b2ab438-912d-41ae-912c-f8701a808360",
+            "@type": "Person",
+            "affiliation": "Instituto Aragon\u00e9s de Ciencias de la Salud (IACS)",
+            "name": "Gonz\u00e1lez-Galindo, Javier"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-0961-3298",
+            "@type": "Person",
+            "affiliation": "Instituto Aragon\u00e9s de Ciencias de la Salud (IACS)",
+            "name": "Bernal-Delgado, Enrique"
+        },
+        {
+            "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109",
+            "@type": "Person",
+            "affiliation": "Instituto Aragon\u00e9s de Ciencias de la Salud (IACS)",
+            "name": "Bernal-Delgado, Enrique"
+        },
+        {
+            "@id": "README.md",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/markdown",
+            "name": "README"
+        },
+        {
+            "@id": "LICENSE.md",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/markdown",
+            "name": "License"
+        },
+        {
+            "@id": "man_container_deployment.md",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/markdown",
+            "name": "Manual on how to deploy the project in a docker container"
+        },
+        {
+            "@id": ".gitignore",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/plain",
+            "name": ".gitignore file"
+        },
+        {
+            "@id": "inputs/data.duckdb",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "application/octet-stream",
+            "name": "SQL OLAP auxiliary database"
+        },
+        {
+            "@id": "src/dqa-scripts/dqa.py",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/plain",
+            "name": "Data Quality Assessment script"
+        },
+        {
+            "@id": "src/validation-scripts/validator.py",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/plain",
+            "name": "Rules validator file"
+        },
+        {
+            "@id": "src/validation-scripts/validator_report.qmd",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/plain",
+            "name": "Rules validator report"
+        },
+        {
+            "@id": "src/validation-scripts/_quarto.yml",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/yaml",
+            "name": "Rules validator report metadata"
+        },
+        {
+            "@id": "src/analysis-scripts/r_report_template.qmd",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/plain",
+            "name": "Quarto analysis script template"
+        },
+        {
+            "@id": "src/analysis-scripts/_quarto.yml",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/yaml",
+            "name": "Analysis script report metadata"
+        },
+        {
+            "@id": "docs/CDM/cdmb_config.json",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "application/json",
+            "name": "CDM builder and project configuration file"
+        },
+        {
+            "@id": "docs/CDM/common_datamodel.xlsx",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "Common Data Model spreadsheet"
+        },
+        {
+            "@id": "docs/CDM/cohort_definition_inclusion.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Crosswalks for the cohort definition inclusion"
+        },
+        {
+            "@id": "docs/CDM/ER.gv.png",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "image/png",
+            "name": "Entity Relationship Diagram PNG"
+        },
+        {
+            "@id": "docs/CDM/ER.gv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/plain",
+            "name": "Entity Relationship Diagram GV"
+        },
+        {
+            "@id": "docs/CDM/synthetic-data/synthetic_person.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Synthetic data for entity: person"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/crosswalks.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-diagnosis_code_cd"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/heart_failure_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-previous_heart_failure_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/systolic_dysfunction_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-systolic_dysfunction_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/diabetes_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-diabetes_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/obesity_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-obesity_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/copd_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-copd_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/solid_tumor_wo_metastasis_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-solid_tumor_without_metastasis_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/solid_tumor_with_metastasis_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-solid_tumor_with_metastasis_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/chronic_kidney_disease_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-chronic_kidney_disease_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/chronic_kidney_disease_stage3_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-chronic_kidney_disease_stage3_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/chronic_kidney_disease_stage4_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-chronic_kidney_disease_stage4_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/chronic_kidney_disease_stage5_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-chronic_kidney_disease_stage5_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/dialysis_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-dialysis_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/sickle_cell_disease_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-sickle_cell_disease_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/hypertension_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-hypertension_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/chronic_liver_disease_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-chronic_liver_disease_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/blood_cancer_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-blood_cancer_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/transplanted_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-transplanted_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/arrythmia_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-arrythmia_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/atrial_fibrillation_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-atrial_fibrillation_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/dyslipidemia_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-dyslipidemia_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/cognitive_impairment_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-cognitive_impairment_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/valvular_disease_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-valvular_disease_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/ischaemic_heart_disease_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-ischaemic_heart_disease_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/cabg_procedure_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-cabg_procedure_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/anemia_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-anemia_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/cerebrovascular_disease_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-cerebrovascular_diseasease_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/trc_dai_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-trc_dai_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/pacemaker_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-pacemaker_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/pulmonary_hypertension_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-pulmonary_hypertension_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/pulmonary_embolism_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-pulmonary_embolism_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/catalogs/palliative_care_bl.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for person-palliative_care_bl"
+        },
+        {
+            "@id": "docs/CDM/entities/person/validation-rules/rules_set_person.json",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "application/json",
+            "name": "Rule set for entity: person"
+        },
+        {
+            "@id": "docs/CDM/synthetic-data/synthetic_hospital_episode.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Synthetic data for entity: hospital_episode"
+        },
+        {
+            "@id": "docs/CDM/entities/hospital_episode/validation-rules/rules_set_hospital_episode.json",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "application/json",
+            "name": "Rule set for entity: hospital_episode"
+        },
+        {
+            "@id": "docs/CDM/synthetic-data/synthetic_utilization.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Synthetic data for entity: utilization"
+        },
+        {
+            "@id": "docs/CDM/entities/utilization/validation-rules/rules_set_utilization.json",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "application/json",
+            "name": "Rule set for entity: utilization"
+        },
+        {
+            "@id": "docs/CDM/synthetic-data/synthetic_treatment.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Synthetic data for entity: treatment"
+        },
+        {
+            "@id": "docs/CDM/entities/treatment/catalogs/atc_code_selection.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Catalog file for treatment-atc_code_cd"
+        },
+        {
+            "@id": "docs/CDM/entities/treatment/validation-rules/rules_set_treatment.json",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "application/json",
+            "name": "Rule set for entity: treatment"
+        },
+        {
+            "@id": "docs/CDM/synthetic-data/synthetic_intervention.csv",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "text/csv",
+            "name": "Synthetic data for entity: intervention"
+        },
+        {
+            "@id": "docs/CDM/entities/intervention/validation-rules/rules_set_intervention.json",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-2802-2477"
+                },
+                {
+                    "@id": "#c4bce357-9b3f-40c6-92be-059a5fbef90a"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6285-8120"
+                },
+                {
+                    "@id": "#ede9aa1f-4cac-4bfb-b450-1678747c2d9b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6839-0303"
+                },
+                {
+                    "@id": "#d77538ab-a7cd-46b1-b2c2-76b1ee9aa34b"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9688-9304"
+                },
+                {
+                    "@id": "#48dd1d32-628d-4b7b-8eec-8e6821108400"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0048-4370"
+                },
+                {
+                    "@id": "#d5035a0b-215b-43fb-b101-03e5bea4d011"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-8783-5478"
+                },
+                {
+                    "@id": "#1b2ab438-912d-41ae-912c-f8701a808360"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-0961-3298"
+                },
+                {
+                    "@id": "#9eb26aa1-12fd-4922-83cc-0c560a35d109"
+                }
+            ],
+            "encodingFormat": "application/json",
+            "name": "Rule set for entity: intervention"
+        }
+    ]
+}

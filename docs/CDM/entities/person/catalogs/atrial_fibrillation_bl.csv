@@ -1,0 +1,18 @@
+encoding,code,clean_code,description,type,subtype,observations
+icd-9-mc,427.3,4273,Atrial fibrillation and flutter,DIAG,,
+icd-9-mc,427.31,42731,Atrial fibrillation,DIAG,,
+icd-9-mc,427.32,42732,Atrial flutter,DIAG,,
+icd-10-mc,I48,I48,Atrial fibrillation and flutter,DIAG,,
+icd-10-mc,I48.0,I480,Paroxysmal atrial fibrillation,DIAG,,
+icd-10-mc,I48.1,I481,Persistent atrial fibrillation,DIAG,,
+icd-10-mc,I48.11,I4811,Longstanding persistent atrial fibrillation,DIAG,,
+icd-10-mc,I48.19,I4819,Other persistent atrial fibrillation,DIAG,,
+icd-10-mc,I48.2,I482,Chronic atrial fibrillation,DIAG,,
+icd-10-mc,I48.20,I4820,unspecified,DIAG,,AHRQ APPENDIX N
+icd-10-mc,I48.21,I4821,Permanent atrial fibrillation,DIAG,,AHRQ APPENDIX N
+icd-10-mc,I48.3,I483,Typical atrial flutter,DIAG,,AHRQ APPENDIX N
+icd-10-mc,I48.4,I484,Atypical atrial flutter,DIAG,,
+icd-10-mc,I48.9,I489,Unspecified atrial fibrillation and atrial flutter,DIAG,,
+icd-10-mc,I48.91,I4891,Unspecified atrial fibrillation,DIAG,,
+icd-10-mc,I48.92,I4892,Unspecified atrial flutter,DIAG,,
+icp-2,K78,K78,Fibrilación auricular/aleteo auricular,DIAG,,

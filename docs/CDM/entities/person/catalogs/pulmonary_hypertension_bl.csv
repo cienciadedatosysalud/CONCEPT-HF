@@ -1,0 +1,9 @@
+encoding,code,clean_code,description,source
+CIE-9,416,4160,Primary pulmonary hypertension,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,416.8,4168,Other chronic pulmonary heart diseases,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,416.9,4169,"Chronic pulmonary heart disease, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,416.8,4168,Other chronic pulmonary heart diseases,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I27.0,I270,Primary pulmonary hypertension,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I27.2,I272,Other secondary pulmonary hypertension,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I27.8,I278,Other specified pulmonary heart diseases,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I27.9,I279,"Pulmonary heart disease, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html

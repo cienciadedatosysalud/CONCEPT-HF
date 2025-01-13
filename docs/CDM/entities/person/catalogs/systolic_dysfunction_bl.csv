@@ -1,0 +1,11 @@
+encoding,code,clean_code,description,source
+CIE-9,428.1,4281,Left heart failure,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,428.2,42820,"Systolic heart failure, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,428.21,42821,Acute systolic heart failure,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,428.22,42822,Chronic systolic heart failure,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,428.23,42823,Acute on chronic systolic heart failure,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I50.1,I501,Left ventricular failure,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I50.20,I5020,"Systolic (congestive) heart failure, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I50.21,I5021,Acute systolic (congestive) heart failure,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I50.22,I5022,Chronic systolic (congestive) heart failure,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I50.23,I5023,Acute on chronic systolic (congestive) heart failure,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html

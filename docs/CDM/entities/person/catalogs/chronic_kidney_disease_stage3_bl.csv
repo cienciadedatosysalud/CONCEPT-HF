@@ -1,0 +1,6 @@
+encoding,code,clean_code,description,source
+icd-10-mc,N18.3,N183,"Chronic kidney disease, stage 3 (moderate)",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-10-mc,N18.30,N1830,"Chronic kidney disease, stage 3 unspecified",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-10-mc,N18.31,N1831,"Chronic kidney disease, stage 3a",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-10-mc,N18.32,N1832,"Chronic kidney disease, stage 3b",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,585.3,5853,"chronic kidney disease, stage iii (moderate)",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp

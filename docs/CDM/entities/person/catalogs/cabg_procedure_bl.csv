@@ -1,0 +1,116 @@
+encoding,code,clean_code,description,source
+CIE-9,36.1,361,Heart and great vessels procedures,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.1,3610,"Heart and great vessels procedures, not otherwise specified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.11,3611,Insertion of total replacement heart,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.12,3612,Insertion of ventricular assist device,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.15,3615,Insertion of total replacement heart NEC,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.16,3616,Implantation of intracardiac pacemaker NEC,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.19,3619,Insertion of other cardiac assist device,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.2,362,Coronary bypass,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.29,3629,Coronary bypass NEC,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.3,363,Heart and great vessels device,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.31,3631,Insertion of intracoronary artery stent,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.32,3632,Insertion of other device into coronary artery,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.33,3633,Other percutaneous transluminal coronary angioplasty,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.34,3634,Atherectomy,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,36.39,3639,Coronary artery device NEC,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021J0ZZ,021J0ZZ,"Bypass Coronary Artery to Right Coronary Artery, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021J3ZZ,021J3ZZ,"Bypass Coronary Artery to Right Coronary Artery, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021J4ZZ,021J4ZZ,"Bypass Coronary Artery to Right Coronary Artery, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021J7ZZ,021J7ZZ,"Bypass Coronary Artery to Right Coronary Artery, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021JXZZ,021JXZZ,"Bypass Coronary Artery to Right Coronary Artery, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021K0ZZ,021K0ZZ,"Bypass Coronary Artery to Left Coronary Artery, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021K3ZZ,021K3ZZ,"Bypass Coronary Artery to Left Coronary Artery, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021K4ZZ,021K4ZZ,"Bypass Coronary Artery to Left Coronary Artery, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021K7ZZ,021K7ZZ,"Bypass Coronary Artery to Left Coronary Artery, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021KXZZ,021KXZZ,"Bypass Coronary Artery to Left Coronary Artery, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021L0ZZ,021L0ZZ,"Bypass Coronary Artery to Anterior Descending Branch, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021L3ZZ,021L3ZZ,"Bypass Coronary Artery to Anterior Descending Branch, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021L4ZZ,021L4ZZ,"Bypass Coronary Artery to Anterior Descending Branch, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021L7ZZ,021L7ZZ,"Bypass Coronary Artery to Anterior Descending Branch, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021LXZZ,021LXZZ,"Bypass Coronary Artery to Anterior Descending Branch, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021M0ZZ,021M0ZZ,"Bypass Coronary Artery to Circumflex Coronary Artery, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021M3ZZ,021M3ZZ,"Bypass Coronary Artery to Circumflex Coronary Artery, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021M4ZZ,021M4ZZ,"Bypass Coronary Artery to Circumflex Coronary Artery, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021M7ZZ,021M7ZZ,"Bypass Coronary Artery to Circumflex Coronary Artery, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021MXZZ,021MXZZ,"Bypass Coronary Artery to Circumflex Coronary Artery, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021N0ZZ,021N0ZZ,"Bypass Coronary Artery to Marginal Branch of Circumflex Coronary Artery, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021N3ZZ,021N3ZZ,"Bypass Coronary Artery to Marginal Branch of Circumflex Coronary Artery, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021N4ZZ,021N4ZZ,"Bypass Coronary Artery to Marginal Branch of Circumflex Coronary Artery, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021N7ZZ,021N7ZZ,"Bypass Coronary Artery to Marginal Branch of Circumflex Coronary Artery, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021NXZZ,021NXZZ,"Bypass Coronary Artery to Marginal Branch of Circumflex Coronary Artery, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021P0ZZ,021P0ZZ,"Bypass Coronary Artery to Posterior Descending Branch, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021P3ZZ,021P3ZZ,"Bypass Coronary Artery to Posterior Descending Branch, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021P4ZZ,021P4ZZ,"Bypass Coronary Artery to Posterior Descending Branch, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021P7ZZ,021P7ZZ,"Bypass Coronary Artery to Posterior Descending Branch, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021PXZZ,021PXZZ,"Bypass Coronary Artery to Posterior Descending Branch, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Q0ZZ,021Q0ZZ,"Bypass Coronary Artery to Obtuse Marginal Coronary Artery, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Q3ZZ,021Q3ZZ,"Bypass Coronary Artery to Obtuse Marginal Coronary Artery, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Q4ZZ,021Q4ZZ,"Bypass Coronary Artery to Obtuse Marginal Coronary Artery, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Q7ZZ,021Q7ZZ,"Bypass Coronary Artery to Obtuse Marginal Coronary Artery, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021QXZZ,021QXZZ,"Bypass Coronary Artery to Obtuse Marginal Coronary Artery, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021R0ZZ,021R0ZZ,"Bypass Coronary Artery to Diagonal Branch, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021R3ZZ,021R3ZZ,"Bypass Coronary Artery to Diagonal Branch, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021R4ZZ,021R4ZZ,"Bypass Coronary Artery to Diagonal Branch, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021R7ZZ,021R7ZZ,"Bypass Coronary Artery to Diagonal Branch, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021RXZZ,021RXZZ,"Bypass Coronary Artery to Diagonal Branch, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021S0ZZ,021S0ZZ,"Bypass Coronary Artery to Obtuse Marginal Branch of Left Circumflex Coronary Artery, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021S3ZZ,021S3ZZ,"Bypass Coronary Artery to Obtuse Marginal Branch of Left Circumflex Coronary Artery, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021S4ZZ,021S4ZZ,"Bypass Coronary Artery to Obtuse Marginal Branch of Left Circumflex Coronary Artery, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021S7ZZ,021S7ZZ,"Bypass Coronary Artery to Obtuse Marginal Branch of Left Circumflex Coronary Artery, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021SXZZ,021SXZZ,"Bypass Coronary Artery to Obtuse Marginal Branch of Left Circumflex Coronary Artery, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021T0ZZ,021T0ZZ,"Bypass Coronary Artery to Posterolateral Branch of Left Circumflex Coronary Artery, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021T3ZZ,021T3ZZ,"Bypass Coronary Artery to Posterolateral Branch of Left Circumflex Coronary Artery, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021T4ZZ,021T4ZZ,"Bypass Coronary Artery to Posterolateral Branch of Left Circumflex Coronary Artery, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021T7ZZ,021T7ZZ,"Bypass Coronary Artery to Posterolateral Branch of Left Circumflex Coronary Artery, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021TXZZ,021TXZZ,"Bypass Coronary Artery to Posterolateral Branch of Left Circumflex Coronary Artery, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021U0ZZ,021U0ZZ,"Bypass Coronary Artery to Diagonal Branch of Left Anterior Descending Coronary Artery, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021U3ZZ,021U3ZZ,"Bypass Coronary Artery to Diagonal Branch of Left Anterior Descending Coronary Artery, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021U4ZZ,021U4ZZ,"Bypass Coronary Artery to Diagonal Branch of Left Anterior Descending Coronary Artery, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021U7ZZ,021U7ZZ,"Bypass Coronary Artery to Diagonal Branch of Left Anterior Descending Coronary Artery, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021UXZZ,021UXZZ,"Bypass Coronary Artery to Diagonal Branch of Left Anterior Descending Coronary Artery, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021V0ZZ,021V0ZZ,"Bypass Coronary Artery to First Diagonal Branch, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021V3ZZ,021V3ZZ,"Bypass Coronary Artery to First Diagonal Branch, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021V4ZZ,021V4ZZ,"Bypass Coronary Artery to First Diagonal Branch, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021V7ZZ,021V7ZZ,"Bypass Coronary Artery to First Diagonal Branch, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021VXZZ,021VXZZ,"Bypass Coronary Artery to First Diagonal Branch, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021W0ZZ,021W0ZZ,"Bypass Coronary Artery to Second Diagonal Branch, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021W3ZZ,021W3ZZ,"Bypass Coronary Artery to Second Diagonal Branch, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021W4ZZ,021W4ZZ,"Bypass Coronary Artery to Second Diagonal Branch, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021W7ZZ,021W7ZZ,"Bypass Coronary Artery to Second Diagonal Branch, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021WXZZ,021WXZZ,"Bypass Coronary Artery to Second Diagonal Branch, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021X0ZZ,021X0ZZ,"Bypass Coronary Artery to Left Anterior Descending Branch, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021X3ZZ,021X3ZZ,"Bypass Coronary Artery to Left Anterior Descending Branch, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021X4ZZ,021X4ZZ,"Bypass Coronary Artery to Left Anterior Descending Branch, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021X7ZZ,021X7ZZ,"Bypass Coronary Artery to Left Anterior Descending Branch, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021XXZZ,021XXZZ,"Bypass Coronary Artery to Left Anterior Descending Branch, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Y0ZZ,021Y0ZZ,"Bypass Coronary Artery to Left Circumflex Coronary Artery, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Y3ZZ,021Y3ZZ,"Bypass Coronary Artery to Left Circumflex Coronary Artery, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Y4ZZ,021Y4ZZ,"Bypass Coronary Artery to Left Circumflex Coronary Artery, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Y7ZZ,021Y7ZZ,"Bypass Coronary Artery to Left Circumflex Coronary Artery, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021YXZZ,021YXZZ,"Bypass Coronary Artery to Left Circumflex Coronary Artery, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Z0ZZ,021Z0ZZ,"Bypass Coronary Artery to Coronary Artery of Transplanted Heart, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Z3ZZ,021Z3ZZ,"Bypass Coronary Artery to Coronary Artery of Transplanted Heart, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Z4ZZ,021Z4ZZ,"Bypass Coronary Artery to Coronary Artery of Transplanted Heart, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Z7ZZ,021Z7ZZ,"Bypass Coronary Artery to Coronary Artery of Transplanted Heart, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021ZXZZ,021ZXZZ,"Bypass Coronary Artery to Coronary Artery of Transplanted Heart, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021W0ZZ,021W0ZZ,"Bypass Coronary Artery to Second Diagonal Branch, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021W3ZZ,021W3ZZ,"Bypass Coronary Artery to Second Diagonal Branch, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021W4ZZ,021W4ZZ,"Bypass Coronary Artery to Second Diagonal Branch, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021W7ZZ,021W7ZZ,"Bypass Coronary Artery to Second Diagonal Branch, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021WXZZ,021WXZZ,"Bypass Coronary Artery to Second Diagonal Branch, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021X0ZZ,021X0ZZ,"Bypass Coronary Artery to Left Anterior Descending Branch, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021X3ZZ,021X3ZZ,"Bypass Coronary Artery to Left Anterior Descending Branch, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021X4ZZ,021X4ZZ,"Bypass Coronary Artery to Left Anterior Descending Branch, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021X7ZZ,021X7ZZ,"Bypass Coronary Artery to Left Anterior Descending Branch, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021XXZZ,021XXZZ,"Bypass Coronary Artery to Left Anterior Descending Branch, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Y0ZZ,021Y0ZZ,"Bypass Coronary Artery to Left Circumflex Coronary Artery, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Y3ZZ,021Y3ZZ,"Bypass Coronary Artery to Left Circumflex Coronary Artery, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Y4ZZ,021Y4ZZ,"Bypass Coronary Artery to Left Circumflex Coronary Artery, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Y7ZZ,021Y7ZZ,"Bypass Coronary Artery to Left Circumflex Coronary Artery, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021YXZZ,021YXZZ,"Bypass Coronary Artery to Left Circumflex Coronary Artery, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Z0ZZ,021Z0ZZ,"Bypass Coronary Artery to Coronary Artery of Transplanted Heart, Open Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Z3ZZ,021Z3ZZ,"Bypass Coronary Artery to Coronary Artery of Transplanted Heart, Percutaneous Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Z4ZZ,021Z4ZZ,"Bypass Coronary Artery to Coronary Artery of Transplanted Heart, Percutaneous Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021Z7ZZ,021Z7ZZ,"Bypass Coronary Artery to Coronary Artery of Transplanted Heart, Via Natural or Artificial Opening Endoscopic Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,021ZXZZ,021ZXZZ,"Bypass Coronary Artery to Coronary Artery of Transplanted Heart, Via Natural or Artificial Opening Approach",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html

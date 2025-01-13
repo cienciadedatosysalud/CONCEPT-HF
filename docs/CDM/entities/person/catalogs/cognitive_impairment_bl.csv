@@ -1,0 +1,66 @@
+encoding,code,clean_code,description,source
+CIE-9,290,290,Senile and presenile organic psychotic conditions,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290,2900,"Senile dementia, uncomplicated",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.1,2901,Presenile dementia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.1,29010,Presenile dementia with depressive features,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.11,29011,Presenile dementia with delusional features,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.12,29012,Presenile dementia with depressive and delusional features,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.13,29013,Presenile dementia with delirium,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.2,2902,Senile dementia with delusional features,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.2,29020,"Senile dementia with delusional features, uncomplicated",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.21,29021,"Senile dementia with delusional features, with depressive features",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.3,2903,Senile dementia with depressive features,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.4,29040,"Vascular dementia, uncomplicated",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.41,29041,Vascular dementia with delirium,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.42,29042,Vascular dementia with delusions,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.43,29043,Vascular dementia with depressive features,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.8,2908,Other specified senile psychotic conditions,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,290.9,2909,Unspecified senile psychotic condition,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,331,3310,Alzheimer's disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,331.1,3311,Pick's disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,331.11,33111,Pick's disease with Pick's cells,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,331.19,33119,Pick's disease without mention of Pick's cells,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,331.2,3312,Senile degeneration of brain,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,331.7,3317,Frontotemporal dementia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,331.82,33182,Dementia with Lewy bodies,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,331.83,33183,Dementia in other specified diseases classified elsewhere,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,331.89,33189,Other specified cerebral degenerations,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,331.9,3319,Unspecified cerebral degenerations,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F00,F00,Dementia in Alzheimer disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F00.0,F000,Dementia in Alzheimer disease with early onset,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F00.1,F001,Dementia in Alzheimer disease with late onset,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F00.2,F002,"Dementia in Alzheimer disease, atypical type",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F00.9,F009,"Dementia in Alzheimer disease, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F01,F01,Vascular dementia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F01.0,F010,Vascular dementia of acute onset,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F01.1,F011,Vascular dementia of subacute onset,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F01.2,F012,Vascular dementia of chronic onset,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F01.3,F013,"Vascular dementia, mixed type",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F01.8,F018,Other vascular dementia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F01.9,F019,"Vascular dementia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F02,F02,Dementia in other diseases classified elsewhere,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F02.0,F020,Dementia in Parkinson's disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F02.3,F023,Dementia in Huntington disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F02.4,F024,Dementia in Creutzfeldt-Jakob disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F02.8,F028,Dementia in other specified diseases,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F03,F03,Unspecified dementia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F03.9,F039,Unspecified dementia without behavioral disturbance,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F04,F04,"Organic amnesic syndrome, not induced by alcohol and other psychoactive substances",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F05,F05,"Delirium, not induced by alcohol and other psychoactive substances",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F06,F06,Other mental disorders due to brain damage and dysfunction and to physical disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F06.7,F067,Mild cognitive impairment,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F06.8,F068,Other specified mental disorders due to brain damage and dysfunction and to physical disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,F06.9,F069,Unspecified mental disorder due to brain damage and dysfunction and to physical disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G30,G30,Alzheimer's disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G30.0,G300,Alzheimer's disease with early onset,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G30.1,G301,Alzheimer's disease with late onset,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G30.8,G308,Other Alzheimer's disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G30.9,G309,"Alzheimer's disease, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G31.0,G310,Senile degeneration of brain,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G31.1,G311,Senile dementia with delirium,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G31.82,G3182,Dementia with Lewy bodies,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G31.83,G3183,Frontotemporal dementia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G31.84,G3184,Mild cognitive impairment,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G31.85,G3185,Corticobasal degeneration,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G31.89,G3189,Other specified degenerative diseases of nervous system,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,G31.9,G319,"Degenerative disease of nervous system, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html

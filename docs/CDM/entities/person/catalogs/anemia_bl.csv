@@ -1,0 +1,69 @@
+encoding,code,clean_code,description,source
+CIE-9,280,2800,Iron deficiency anemias,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,280.1,2801,Vitamin B12 deficiency anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,280.8,2808,Other specified anemias,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,280.9,2809,"Anemia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D50.0,D500,Iron deficiency anemia secondary to blood loss,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D50.1,D501,Sideropenic dysphagia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D50.8,D508,Other iron deficiency anemias,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D50.9,D509,"Iron deficiency anemia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D51.0,D510,Vitamin B12 deficiency anemia due to intrinsic factor deficiency,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D51.1,D511,Vitamin B12 deficiency anemia due to selective vitamin B12 malabsorption with proteinuria,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D51.2,D512,Transcobalamin II deficiency,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D51.3,D513,Other dietary vitamin B12 deficiency anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D51.9,D519,"Vitamin B12 deficiency anemia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D52.0,D520,Folate deficiency anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D52.1,D521,Folate deficiency anemia due to methotrexate,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D52.8,D528,Other folate deficiency anemias,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D52.9,D529,"Folate deficiency anemia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D53.0,D530,Protein deficiency anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D53.1,D531,"Other megaloblastic anemias, not elsewhere classified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D53.2,D532,Scorbutoxic anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D53.8,D538,Other specified nutritional anemias,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D53.9,D539,"Nutritional anemia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D55.0,D550,Anemia due to glucose-6-phosphate dehydrogenase [G6PD] deficiency,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D55.1,D551,Anemia due to other disorders of glutathione metabolism,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D55.8,D558,Other specified hemoglobinopathies,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D55.9,D559,"Hemoglobinopathy, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D56.0,D560,Alpha thalassemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D56.1,D561,Beta thalassemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D56.2,D562,Delta-beta thalassemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D56.3,D563,Thalassemia minor,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D56.4,D564,Hemoglobin E-beta thalassemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D56.8,D568,Other specified thalassemias,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D56.9,D569,"Thalassemia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D57.0,D570,Sickle-cell anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D57.1,D571,Sickle-cell/Hb-C disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D57.2,D572,Double heterozygous sickling disorders,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D57.3,D573,Hemoglobin SC disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D57.4,D574,Other sickle-cell disorders,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D57.5,D575,Sickle-cell trait,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D57.8,D578,Other sickle-cell disorders,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D57.9,D579,"Sickle-cell disorder, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D58.0,D580,Hereditary persistence of fetal hemoglobin [HPFH],https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D58.1,D581,Hemoglobin E-beta thalassemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D58.2,D582,Other hemoglobinopathies,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D58.8,D588,Other specified hereditary hemolytic anemias,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D58.9,D589,"Hereditary hemolytic anemia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D59.0,D590,Drug-induced autoimmune hemolytic anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D59.1,D591,Other autoimmune hemolytic anemias,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D59.2,D592,Drug-induced nonautoimmune hemolytic anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D59.3,D593,Hemolytic-uremic syndrome,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D59.4,D594,Hemoglobinuria due to hemolysis from external causes,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D59.5,D595,Paroxysmal nocturnal hemoglobinuria,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D59.6,D596,Hemoglobinuria due to hemolysis from other internal causes,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D59.8,D598,Other acquired hemolytic anemias,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D59.9,D599,"Acquired hemolytic anemia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D60.0,D600,Congenital hypoplastic anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D60.1,D601,Congenital pure red cell aplasia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D60.8,D608,Other specified congenital anemias,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D60.9,D609,"Congenital anemia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D61.0,D610,Constitutional aplastic anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D61.1,D611,Drug-induced aplastic anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D61.2,D612,Aplastic anemia due to other external agents,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D61.3,D613,Idiopathic aplastic anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D61.8,D618,Other aplastic anemias,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D61.9,D619,"Aplastic anemia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D62.0,D620,Acute posthemorrhagic anemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D62.8,D628,Other specified anemias,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,D62.9,D629,"Anemia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html

@@ -1,0 +1,13 @@
+encoding,code,clean_code,description,source
+icd-10-mc,Z49.01,Z4901,Encounter for fitting and adjustment of extracorporeal dialysis catheter,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-10-mc,Z49.02,Z4902,Encounter for fitting and adjustment of peritoneal dialysis catheter,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-10-mc,Z49.31,Z4931,Encounter for adequacy testing for hemodialysis,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-10-mc,Z49.32,Z4932,Encounter for adequacy testing for peritoneal dialysis,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-10-mc,Z91.15,Z9115,Patient's noncompliance with renal dialysis,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-10-mc,Z99.2,Z992,Dependence on renal dialysis,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,V45.11,V4511,renal dialysis status,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,V45.12,V4512,renal dialysis non-compliance status,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,V56.1,V561,dialysis catheter placement/adjustment (extracorporeal)(perit.),https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,V56.2,V562,dialysis catheter placement/adjustment perit.,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,V56.31,V5631,admission for haemodialysis adequacy testing,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,V56.32,V5632,admission for adequacy test for peritoneal dialysis,https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp

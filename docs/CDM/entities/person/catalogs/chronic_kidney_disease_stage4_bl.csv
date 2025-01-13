@@ -1,0 +1,3 @@
+encoding,code,clean_code,description,source
+icd-10-mc,N18.4,N184,"Chronic kidney disease, stage 4 (severe)",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp
+icd-09-mc,585.4,5854,"chronic nephropathy, stage iv (severe)",https://www.hcup-us.ahrq.gov/toolssoftware/comorbidityicd10/comorbidity_icd10.jsp

@@ -1,0 +1,82 @@
+encoding,code,clean_code,description,source
+CIE-9,410,410,Acute myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,410,4100,"Acute myocardial infarction, anterior wall",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,410.1,4101,"Acute myocardial infarction, inferior wall",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,410.2,4102,"Acute myocardial infarction, other specified sites",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,410.3,4103,"Acute myocardial infarction, of unspecified site",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,410.4,4104,"Acute myocardial infarction, subendocardial",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,410.5,4105,"Acute myocardial infarction, subepicardial",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,410.6,4106,"Acute myocardial infarction, involving other anterior wall",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,410.7,4107,"Acute myocardial infarction, true posterior wall",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,410.8,4108,"Acute myocardial infarction, other specified site",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,410.9,4109,"Acute myocardial infarction, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,411,411,Other acute and subacute forms of ischemic heart disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,411,4110,Postmyocardial infarction syndrome,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,411.1,4111,Intermediate coronary syndrome,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,411.8,4118,Other acute and subacute forms of ischemic heart disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,412,412,Old myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,412,4120,"Old myocardial infarction, anterolateral",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,412.1,4121,"Old myocardial infarction, inferoposterior",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,412.2,4122,"Old myocardial infarction, other inferior",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,412.3,4123,"Old myocardial infarction, other lateral",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,412.4,4124,"Old myocardial infarction, true posterior",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,412.8,4128,"Old myocardial infarction, other specified site",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,412.9,4129,"Old myocardial infarction, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414,414,Other forms of chronic ischemic heart disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414,4140,Coronary atherosclerosis,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414,41400,Coronary atherosclerosis of unspecified type of vessel,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.01,41401,Coronary atherosclerosis of native coronary artery,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.02,41402,Coronary atherosclerosis of autologous vein bypass graft,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.03,41403,Coronary atherosclerosis of nonautologous biological bypass graft,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.04,41404,Coronary atherosclerosis of artery bypass graft,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.05,41405,Coronary atherosclerosis of unspecified bypass graft,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.06,41406,Coronary atherosclerosis of native coronary artery of transplanted heart,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.07,41407,Coronary atherosclerosis of bypass graft of transplanted heart,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.08,41408,Coronary atherosclerosis of other type of bypass graft,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.09,41409,Coronary atherosclerosis of unspecified type of bypass graft,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.1,4141,Aneurysm of heart,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.2,4142,Chronic total occlusion of coronary artery,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.3,4143,Coronary artery aneurysm,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.4,4144,Coronary artery embolism,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.8,4148,Other specified forms of chronic ischemic heart disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,414.9,4149,"Chronic ischemic heart disease, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,429.2,4292,"Cardiovascular disease, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I20,I20,Angina pectoris,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I20.0,I200,Unstable angina,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I20.1,I201,Angina pectoris with documented spasm,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I20.8,I208,Other forms of angina,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I20.9,I209,"Angina pectoris, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I21,I21,Acute myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I21.0,I210,ST elevation (STEMI) myocardial infarction of anterior wall,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I21.1,I211,ST elevation (STEMI) myocardial infarction of inferior wall,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I21.9,I219,"Acute myocardial infarction, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I22,I22,Subsequent myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I23,I23,Certain current complications following acute myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I23.0,I230,Hemopericardium as current complication following acute myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I23.1,I231,Cardiac tamponade as current complication following acute myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I23.2,I232,Rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I23.3,I233,Rupture of chordae tendineae as current complication following acute myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I23.4,I234,Rupture of papillary muscle as current complication following acute myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I23.8,I238,Other current complications following acute myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I23.9,I239,"Current complication following acute myocardial infarction, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I24,I24,Other acute ischemic heart diseases,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I24.0,I240,Coronary thrombosis not resulting in myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I24.1,I241,Coronary artery embolism,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I24.8,I248,Other forms of acute ischemic heart disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I24.9,I249,"Acute ischemic heart disease, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25,I25,Chronic ischemic heart disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.0,I250,Atherosclerotic cardiovascular disease of native coronary artery,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.1,I251,Atherosclerotic heart disease of native coronary artery with angina pectoris,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.10,I2510,Atherosclerotic heart disease of native coronary artery without angina pectoris,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.11,I2511,Atherosclerotic heart disease of native coronary artery with unstable angina,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.110,I25110,Atherosclerotic heart disease of native coronary artery with unstable angina,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.111,I25111,Atherosclerotic heart disease of native coronary artery with unstable angina,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.118,I25118,Atherosclerotic heart disease of native coronary artery with other forms of angina pectoris,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.119,I25119,Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.2,I252,Old myocardial infarction,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.3,I253,Aneurysm of heart,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.4,I254,Coronary artery aneurysm,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.5,I255,Ischemic cardiomyopathy,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.6,I256,Silent myocardial ischemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.8,I258,Other forms of chronic ischemic heart disease,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,I25.9,I259,"Chronic ischemic heart disease, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html

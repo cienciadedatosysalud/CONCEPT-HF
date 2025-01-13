@@ -1,0 +1,13 @@
+encoding,code,clean_code,description,source
+CIE-9,272,2720,Pure hypercholesterolemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,272.1,2721,Pure hyperglyceridemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,272.2,2722,Mixed hyperlipidemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,272.4,2724,Other and unspecified hyperlipidemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,272.8,2728,Other disorders of lipoid metabolism,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-9,272.9,2729,Unspecified disorder of lipoid metabolism,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,E78.0,E780,Pure hypercholesterolemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,E78.1,E781,Pure hyperglyceridemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,E78.2,E782,Mixed hyperlipidemia,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,E78.5,E785,"Hyperlipidemia, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,E78.8,E788,Other disorders of lipoprotein metabolism,https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
+CIE-10,E78.9,E789,"Disorder of lipoprotein metabolism, unspecified",https://eciemaps.mscbs.gob.es/ecieMaps/browser/metabuscador.html
