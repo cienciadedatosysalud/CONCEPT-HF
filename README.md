@@ -91,7 +91,6 @@ __Project leader: [Quirós-López, Raúl](https://orcid.org/0000-0002-2802-2477)
 - Data Science for Health Services and Policy Research group: https://cienciadedatosysalud.org/en/
 - Common Data Model Builder library :https://github.com/cienciadedatosysalud/cdmb
 - Analytic Software Pipeline Interface for Reproducible Execution (ASPIRE): https://github.com/cienciadedatosysalud/ASPIRE
-- Atlas VPM community in Zenodo: https://zenodo.org/communities/atlasvpm
 - Research Object Crate (RO-Crate): https://www.researchobject.org/ro-crate/
 - ORCID: https://orcid.org/
 
