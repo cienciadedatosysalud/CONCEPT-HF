@@ -76,7 +76,7 @@ Follow the steps below.
 | González-Galindo, Javier | Instituto Aragonés de Ciencias de la Salud (IACS) | https://orcid.org/0000-0002-8783-5478 |
 | Bernal-Delgado, Enrique | Instituto Aragonés de Ciencias de la Salud (IACS) | https://orcid.org/0000-0002-0961-3298 |
 
-__Project leader: [Bernal-Delgado, Enrique](https://orcid.org/0000-0002-0961-3298)__
+__Project leader: [Quirós-López, Raúl](https://orcid.org/0000-0002-2802-2477)__
 
 
 
