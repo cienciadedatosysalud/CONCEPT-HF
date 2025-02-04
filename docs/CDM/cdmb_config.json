@@ -1197,11 +1197,6 @@
             ],
             "rules": [
                 {
-                    "expression": "health_service_utilization_type_cd = 'pknuQnHveXVMNIGGpfRG'",
-                    "name": "health_service_utilization_type_cd",
-                    "description": "Rule for column 'health_service_utilization_type_cd'"
-                },
-                {
                     "expression": "health_service_utilization_dt >= '2015-01-01'",
                     "name": "health_service_utilization_dt",
                     "description": "Rule for column health_service_utilization_dt"
